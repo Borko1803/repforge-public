@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <title>Delete your RepForgeAI account</title>
+  <meta
+    name="description"
+    content="Instructions for deleting your RepForgeAI account and associated data."
+  />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0d12;
+      --panel: #141820;
+      --panel-2: #10141b;
+      --text: #f1eee8;
+      --muted: #aaa59c;
+      --border: rgba(255,255,255,.09);
+      --accent: #d7b36c;
+      --danger: #c66d67;
+      --success: #8ea98f;
+      --max: 760px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family:
+        Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    body {
+      padding: 32px 18px 56px;
+    }
+
+    main {
+      width: 100%;
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 22px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 5px rgba(215,179,108,.09);
+    }
+
+    .hero,
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: linear-gradient(180deg, var(--panel), var(--panel-2));
+    }
+
+    .hero {
+      padding: 28px;
+      margin-bottom: 18px;
+    }
+
+    .card {
+      padding: 22px;
+      margin-top: 14px;
+    }
+
+    h1, h2 {
+      margin: 0;
+      letter-spacing: -.02em;
+    }
+
+    h1 {
+      font-size: clamp(30px, 6vw, 44px);
+      line-height: 1.08;
+      margin-bottom: 14px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    p + p {
+      margin-top: 10px;
+    }
+
+    ol, ul {
+      margin: 10px 0 0;
+      padding-left: 22px;
+      color: var(--muted);
+    }
+
+    li + li {
+      margin-top: 6px;
+    }
+
+    strong {
+      color: var(--text);
+    }
+
+    .notice {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-left: 3px solid var(--accent);
+      border-radius: 10px;
+      background: rgba(215,179,108,.07);
+      color: var(--muted);
+    }
+
+    .danger {
+      border-left-color: var(--danger);
+      background: rgba(198,109,103,.07);
+    }
+
+    .button {
+      display: inline-flex;
+      margin-top: 16px;
+      min-height: 44px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 16px;
+      border-radius: 12px;
+      border: 1px solid rgba(215,179,108,.24);
+      background: rgba(215,179,108,.10);
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    footer {
+      margin-top: 26px;
+      color: #77746f;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    code {
+      color: var(--text);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      RepForgeAI
+    </div>
+
+    <section class="hero">
+      <h1>Delete your RepForgeAI account</h1>
+      <p>
+        You can permanently delete your RepForgeAI account and associated
+        account data directly from the app.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Delete your account in the app</h2>
+      <ol>
+        <li>Open <strong>RepForgeAI</strong>.</li>
+        <li>Open <strong>Settings</strong>.</li>
+        <li>Go to the <strong>Danger Zone</strong>.</li>
+        <li>Select <strong>Delete account</strong>.</li>
+        <li>Review the warning and confirm deletion.</li>
+      </ol>
+
+      <div class="notice danger">
+        Account deletion is permanent. You will need to create a new account
+        if you want to use account-based features again later.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>What is deleted</h2>
+      <p>
+        When the in-app deletion flow completes successfully, RepForgeAI
+        removes the account and associated remote user data that the app
+        manages for that account, including:
+      </p>
+      <ul>
+        <li>Firebase Authentication account</li>
+        <li>Cloud-synced workout sessions and deleted-session records</li>
+        <li>Community public profile</li>
+        <li>Community posts created by the account</li>
+        <li>Kudos and related in-app Community notification data tied to the account where applicable</li>
+        <li>Account-scoped Community block and policy-acceptance records</li>
+        <li>Reports submitted by the account</li>
+        <li>Local RepForgeAI user data stored by the app on that device as part of the completed deletion flow</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Moderation and safety records</h2>
+      <p>
+        Some abuse, safety, fraud-prevention, legal, or moderation records may
+        need to be retained when reasonably necessary for those purposes.
+        RepForgeAI does not treat those records as active Community content.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>If you cannot access the app</h2>
+      <p>
+        You can request account deletion by contacting RepForgeAI support from
+        the same email address associated with your account. The support
+        address must be added here before this page is published.
+      </p>
+
+      <div class="notice">
+        <strong>Before publishing:</strong>
+        replace <code>YOUR_SUPPORT_EMAIL</code> below with the real RepForgeAI
+        support email address.
+      </div>
+
+      <a class="button"
+         href="mailto:YOUR_SUPPORT_EMAIL?subject=RepForgeAI%20account%20deletion%20request">
+        Request account deletion
+      </a>
+    </section>
+
+    <footer>
+      RepForgeAI · Account deletion information
+    </footer>
+  </main>
+</body>
+</html>
